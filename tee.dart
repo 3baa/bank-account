@@ -1,4 +1,4 @@
-//import 'dart:svg';
+
 import 'dart:io';
 
 
@@ -92,8 +92,12 @@ void main() {
   BankAccount client = BankAccount('Basmala Alaa', 500.0);
 //part 3 .................................................................................
   while (true) {
-    print("choose number from 1 to 6");
-
+    print("1. Create account name");
+    print("2. Deposit Money");
+    print("3. Withdraw Money");
+    print("4. Check Current Balance");
+    print("5. View Transaction Log");
+    print("6. Exit");
     stdout.write(" select an option ");
     int option = int.parse(stdin.readLineSync()!);
 
